@@ -31,6 +31,8 @@ public class User {
 	private String email;
 	
 	@Column(name="password")
+	@NotBlank
+	@NotNull
 	private String password;
 
 }
